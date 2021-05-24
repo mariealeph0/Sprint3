@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./estilos/styleHome.css">
-    <title>Clásicos</title>
+    <title>formulario de compra</title>
 </head>
 
 <header id="cabecera">
@@ -16,24 +16,26 @@
         <button class="botones" type="submit"><a id="botonHome" href="./home.html" ><img src="/imagenes/home.png" id="botonHome" width="20" height="20"></a></button>
         <button class="botones" type="submit"><a  href="./carrito.html"><img src="/imagenes/carrito.png" id="botonCarrito" width="20" height="20"></a></button>
     </div>
-    <div class="encabezados" id="encabezadoClasicos">Clásicos</div>
 </header>
 
 <body>
-    <div id="principal"></div>
-    <div id="banners">
-        <a href="./categoriaClasico.html">
-            <div class="categorias" id="clasico">Clásicos</div>
-        </a>
-        <a href="./categoriaAlternativo.html">
-            <div class="categorias" id="alternativo">Alternativos</div>
-        </a>
-        <a href="./categoriaKawaii.html">
-            <div class="categorias" id="kawaii">Kawaii</div>
-        </a>
+    <div id="bodyPago">
+        <div id="factura">
+            Resumen de su compra: *Si desea modificar su compra debe regresar al Carrito de compras.
+        </div>
+        <form>
+            <div><label>Numero de Tarjeta:</label>
+                <input type="number" id="tarjeta"></div>
+            <div><label>Correo electronico:</label>
+                <input type="email" id="email"></div>
+
+            <div><label>Total (valor a pagar):</label>
+                <input type="number" id="valorPagar"></div>
+        </form>
     </div>
 
 </body>
+
 <fotter>
     <div id="pie">
         <h3>Gracias por preferirnos. Disfruta tu compra y siguenos en redes</h3>

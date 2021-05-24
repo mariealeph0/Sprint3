@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    margin-top: 10px;
     padding: 0;
 }
 
@@ -10,9 +11,47 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+.botones {
+    display: inline;
+    position: relative;
+    left: 20px;
+    bottom: 10px;
+    border-color: indigo;
+    border-width: 8px;
+    border-radius: 20%;
+}
+
+#botonHome {
+    position: relative;
+}
+
+#botonHome:hover {
+    width: 30px;
+    height: 30px;
+}
+
 #botonCarrito:hover {
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
+}
+
+.encabezados {
+    width: 100wh;
+    height: 50px;
+    margin-top: 15px;
+    color: white;
+}
+
+#encabezadoClasicos {
+    background-color: darkgreen;
+}
+
+#encabezadoAlternativo {
+    background-color: darkblue;
+}
+
+#encabezadokawaii {
+    background-color: hotpink;
 }
 
 
@@ -21,27 +60,52 @@
     height: 400vh;
     background-color: rgb(221, 184, 255);
     background-position: center;
-    z-index: 2;
 } */
 
 .categorias {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
+    border-radius: 15%;
     background-color: black;
-    font-size: 20px;
+    font-size: 25px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    border-radius: 100%;
-    font-display: center;
+    margin-left: 20px;
+    color: white;
 }
 
 #clasico {
     background-color: green;
+    margin-top: 20px;
 }
 
 #kawaii {
-    background-color: hotpink;
+    background-color: rgb(255, 124, 190);
+    margin-top: 20px;
 }
 
 #alternativo {
     background-color: blue;
+    margin-top: 20px;
+}
+
+#pie {
+    background-color: yellow;
+    color: black;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 0px;
+}
+
+
+/*estilos para pagina formulario compra*/
+
+#bodyPago {
+    background-color: indigo;
+    color: white;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#factura {
+    background-color: gray;
 }
